@@ -286,7 +286,7 @@ li {
 
 /*SELECTION*/
 
-h1::selection, p::selection, br::selection, img::selection, .a-nav::selection {
+h1::selection, p::selection, br::selection, img::selection, .a-nav::selection, code::selection {
     color: #38cffc;
     /*color: #fa701e;*/
 }
@@ -337,7 +337,10 @@ h1::selection, p::selection, br::selection, img::selection, .a-nav::selection {
     grid-area: portsite-main;
 }
 
-
+/*GITHUB-CARD*/
+.github-embed {
+    text-align: center;
+}
 
 /*RESPONSIVE*/
 
